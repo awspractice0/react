@@ -1,5 +1,4 @@
 FROM node:lts as build
-MAINTAINER RAJ
 WORKDIR /app
 COPY . /app
 RUN npm install --silent
